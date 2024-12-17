@@ -60,7 +60,7 @@ This project demonstrates how to build a **real-time data streaming pipeline** u
    - `load_data_to_dataframe()`: Extracts data into a DataFrame.  
    - `perform_etl()`: Applies transformations on the extracted data.  
 
----
+
 
 ## **Pipeline Workflow**
 
