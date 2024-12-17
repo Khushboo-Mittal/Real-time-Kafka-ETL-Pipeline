@@ -1,6 +1,5 @@
 # **Real-Time Data Streaming Pipeline with Kafka and ETL Processing**
 
----
 
 ## **Topics**
 
@@ -12,7 +11,7 @@
 - [Conclusion](#conclusion)  
 
 
----
+
 
 ## **Project Overview**
 
@@ -24,7 +23,7 @@ This project demonstrates how to build a **real-time data streaming pipeline** u
 - To integrate Kafka with a relational database (PostgreSQL) for data persistence.
 
 
----
+
 
 ## **Components**
 
@@ -75,7 +74,7 @@ This project demonstrates how to build a **real-time data streaming pipeline** u
    - The ETL Process (`etl_process.py`) extracts data from PostgreSQL into a Pandas DataFrame.  
    - Transformation steps include filtering and adding derived columns.  
 
----
+
 
 ## **Setup and Execution**
 
@@ -88,7 +87,7 @@ This project demonstrates how to build a **real-time data streaming pipeline** u
    pip install pandas sqlalchemy psycopg2 confluent-kafka
    ```
 
----
+
 
 ### **Execution Steps**
 
@@ -120,7 +119,7 @@ Extracts and transforms data, displaying the transformed dataset:
    python etl_process.py
    ```
 
----
+
 
 ## **Example Output**
 
@@ -149,7 +148,7 @@ new_column         object
 dtype: object
 ```
 
----
+
 
 ## **Conclusion**
 This project demonstrates a robust **real-time data streaming pipeline** using Apache Kafka and PostgreSQL. By integrating **data production, ingestion,** and **transformation,** it showcases end-to-end data processing capabilities. The modular design allows for future enhancements, such as scaling for large datasets or adding advanced analytics. This pipeline serves as a strong foundation for real-time data engineering applications, illustrating the power of Apache Kafka, PostgreSQL, and Python.
